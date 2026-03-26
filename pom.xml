@@ -15,6 +15,7 @@
     </properties>
     <modules>
         <module>paas-layout-service-core</module>
+        <module>paas-layout-service-feign</module>
         <module>paas-layout-service-server</module>
     </modules>
     <dependencyManagement>
@@ -22,6 +23,7 @@
             <dependency><groupId>com.hongyang</groupId><artifactId>framework-basic</artifactId><type>pom</type><scope>import</scope><version>${framework-basic-import.version}</version></dependency>
             <dependency><groupId>com.hongyang</groupId><artifactId>framework-redis</artifactId><type>pom</type><scope>import</scope><version>${framework-redis-import.version}</version></dependency>
             <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-layout-service-core</artifactId><version>${revision}</version></dependency>
+            <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-layout-service-feign</artifactId><version>${revision}</version></dependency>
             <dependency><groupId>com.hongyang.platform</groupId><artifactId>paas-metarepo-service-core</artifactId><version>${paas-metarepo-service.version}</version></dependency>
         </dependencies>
     </dependencyManagement>
